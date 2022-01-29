@@ -11,8 +11,10 @@ function Message(props) {
 
     return (
         !!message &&
-        <div className="Message">
-            {message.name} <br/> {message.text}
+        <div className="Message__box">
+            <div className="Message">
+                {message.name} <br/> {message.text}
+            </div>
         </div>
     );
 }

@@ -35,13 +35,15 @@ function Form() {
                 <div className="Box__title">
                       Сообщения {countMessage}
                 </div>
-                <div className="Box__messages">
-                    {historyMessages.map((message, index) => (
-                        <Message
-                            message={message}
-                            key={'message_' + index}
-                            />
-                    ))}
+                <div className='Obertka'>
+                    <div className="Box__messages">
+                        {historyMessages.map((message, index) => (
+                            <Message
+                                message={message}
+                                key={'message_' + index}
+                                />
+                        ))}
+                    </div>
                 </div>
                 <div className="Box__send">
                     <label>

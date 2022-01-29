@@ -13,6 +13,11 @@ html, body {
 
 .Box__title {
     display: flex;
+    margin: 20px;
+    text-shadow: 1px 1px 1px #525252,
+             2px 2px 1px #525252;
+             
+    font-family: 'Arial', sans-serif;
 }
 
 .Box__messages {
@@ -20,8 +25,7 @@ html, body {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-end;
-    align-items: stretch;
-    overflow: auto;
+    align-items: flex-start;
 }
 
 .Box__send {
@@ -37,12 +41,19 @@ html, body {
     bottom: 0;
     right: 0px;
     left: 0px;
-    text-align: center;
-    
 }
 
-.Box__send .button {
+.button {
     background-color: forestgreen;
     padding: 10px;
     border-radius: 9px;
 }
+
+
+
+
+.Obertka {
+    overflow: auto;
+    margin-bottom: 100px;
+}
+

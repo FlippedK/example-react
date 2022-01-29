@@ -1,5 +1,11 @@
+.Message__box {
+}
+
+
 .Message {
     margin: 15px;
     background-color: gray;
     border-radius: 5px;
+    
+    font-family: 'Arial', sans-serif;
 }
